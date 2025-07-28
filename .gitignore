@@ -1,0 +1,21 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Dataset folders (these are too large for GitHub)
+/train/
+/test/
+/valid/
+
+# Output folder (contains large model files and generated images)
+/outputs/
+
+# Downloaded data files
+*.zip
+*.csv
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
